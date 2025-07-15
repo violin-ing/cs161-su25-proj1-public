@@ -3,17 +3,17 @@ Note: Q6 antares is incomplete
 ## AUTOGRADER OUTPUT
 
 
-Autograder Score
+### Autograder Score
 
 40.0 / 50.0
 
 
-Failed Tests
+### Failed Tests
 
 Question 6: antares (0/10)
 
 
-Passed Tests
+### Passed Tests
 
 Question 1: remus (5/5)
 
